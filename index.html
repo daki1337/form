@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h2 class="contact-us">contact us</h2>
+        <p class="lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, id.</p>
+<label>
+    <span>Name</span>
+    <input type="text" name="name" required>
+</label>
+<label>
+    <span class="email">E-mail</span>
+    <input type="email" name="email" required>
+</label>
+<label>
+    <span class="phone">Phone</span>
+    <input type="tel" name="phone" >
+</label>
+<div class="group">
+    <span>Contact me by </span>
+<div class="group-radio">
+<label><input type="radio" name="contact" checked >E-mail</label>
+<label><input type="radio" name="contact" >Phone</label>
+</div>
+</div>
+<label>
+    <span>
+        Question for
+    </span>
+    <select name="select">
+        <option>--Please select</option>
+        <option value="1">Question 1</option>
+        <option value="2">Question 2</option>
+        <option value="3">Question 3</option>
+    </select>
+</label>
+<label>
+    <span>Message</span>
+    <textarea name="message" required></textarea>
+</label>
+<button type="submit">Submit</button>
+    </form>
+</body>
+</html>
